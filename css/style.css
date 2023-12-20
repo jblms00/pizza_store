@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: url(images/background.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.main-container {
+    height: 100%;
+}
+
+.navbar-menu {
+    text-align: center;
+    padding: 16px;
+}
+
+.navbar-menu .dropdown-menu {
+    text-align: center;
+    background-color: #ffd900;
+    padding: 0;
+}
+
+.navbar-menu .dropdown-menu li {
+    border-bottom: 1px solid black;
+}
+
+.navbar-menu .nav-link {
+    margin: 10px;
+    margin-top: 58px;
+    color: white;
+}
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+    height: 100%;
+}
+
+.index-footer {
+    background-color: #383838;
+    margin-top: 100px;
+    padding: 36px;
+    padding-bottom: 16px;
+}
+
+.index-footer .col-2 {
+    text-align: right;
+}
+
+.index-footer .row {
+    margin: 16px;
+}
+
+.index-footer p {
+    text-align: left;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.index-footer .footer-img {
+    height: 180px;
+}
+
+.index-page .container-fluid h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 64px;
+    color: #ffd900;
+    margin: 0;
+}
+
+.index-page .container-fluid .pizza-bg {
+    position: relative;
+    background-image: url(images/background-pizza.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 820px;
+    margin-top: 69px;
+}
+
+.signin-page .container-fluid h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 54px;
+    color: #ffd900;
+    margin: 0;
+}
+
+.signin-page .container-fluid h3 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 48px;
+    color: #ffd900;
+    margin: 0;
+}
+
+.input-fields {
+    margin-top: 36px;
+    padding: 36px;
+}
+
+.input-fields .form-floating {
+    width: 30%;
+    margin: auto;
+    color: black;
+}
+
+.input-fields button {
+    margin-top: 36px;
+}
+
+.alert {
+    width: 30%;
+    margin: auto;
+    margin-top: 36px;
+    padding: 0;
+}
+
+.user-page .container-fluid {
+    padding-top: 0;
+    padding-bottom: 36px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.user-page .left-bg {
+    background-color: red;
+    height: 100%;
+}
+
+.user-page .right-bg {
+    height: 100%;
+}
+
+.orders h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    letter-spacing: 3px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.right-bg .order-history {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 48px;
+    letter-spacing: 3px;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.menu-page .card-body {
+    background-color: #ffd900;
+}
+
+.menu-page .card {
+    border: none;
+    border-top: 3px solid #ffd900;
+    border-right: 3px solid #ffd900;
+    outline: 1px solid #ffff;
+    border-top-right-radius: 25px;
+    background-color: none;
+    --bs-card-bg: none;
+    margin: auto;
+    margin-top: 36px;
+    margin-bottom: 36px;
+}
+
+.menu-page img {
+    border-top-right-radius: 25px;
+    background-color: none;
+}
+
+.menu-page .card-body {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.menu-page p {
+    margin: 0;
+    margin-top: 13px;
+    color: black;
+    font-weight: 600;
+}
+
+.modal-content h1 {
+    color: black;
+}
+
+.modal-content p {
+    text-align: left;
+    font-weight: 300;
+    margin: auto;
+    color: black;
+}
+
+.cart-page .cart-p {
+    margin-top: 45px;
+}
+
+.cart-page .btn-status {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 38px;
+}
+
+.cart-page a {
+    text-decoration: none;
+}
+
+.cart-page .item-details {
+    font-weight: 600;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.cart-page .item-php {
+    font-weight: normal;
+    color: red;
+}
+
+/* .cart-page table {
+    color: white;
+} */
+
+.modal-order input {
+    width: 100%;
+    border: 2px solid #ffd900;
+    border-radius: 8px;
+}
+
+.modal-order input[type="number" i] {
+    padding: 2px 8px;
+}
+
+.modal-order input[type="text" i] {
+    padding: 2px 8px;
+}
+
+.user-address {
+    margin-top: 16px;
+}
+
+.order-desc {
+    margin-top: 48px;
+}
+
+.admin-dashboard .box-count {
+    background-color: #ffe96d;
+    color: black;
+    padding: 36px;
+    margin: 16px;
+    border-radius: 16px;
+    height: 175px;
+}
+
+.box-count p {
+    margin: 0;
+}
+
+.admin-page .btn-admin-modal {
+    margin-top: 28px;
+    font-size: 13px;
+}
